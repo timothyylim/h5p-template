@@ -1,0 +1,19 @@
+.template-class {
+  width: 400px;
+  margin: 0 auto;
+  border: 1px solid #ccc;
+  box-shadow: 2px 2px 4px #ccc;
+}
+.template-class .template-image {
+  width: 100%;
+  height: auto;
+}
+.template-class .template-text {
+  width: auto;
+  margin: 16px;
+  font-family: fantasy;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 24px;
+  text-align: center;
+}

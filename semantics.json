@@ -1,0 +1,53 @@
+[ 
+  { 
+    "type": "text", 
+    "name": "simpleText", 
+    "label": "Simple text example" 
+  },
+  {
+    "type": "text",
+    "name": "advancedText",
+    "label": "Advanced Text Example",
+    "description": "Showcasing advanced options for a text type",
+    "default": "Default values are optional",
+    "maxLength": 99,
+	"widget": "html",
+	"enterMode": "div",
+    "tags": [
+      "strong",
+      "em",
+      "sub",
+      "sup"
+    ]
+  },
+  { 
+    "type": "number", 
+    "name": "simpleNumber", 
+    "label": "Simple number example" 
+  },
+  {
+    "type": "number", 
+    "name": "advancedNumber", 
+    "label": "Advanced number example", 
+    "description": "Showcasing advanced options for a number type",
+    "min": 0,
+    "max": 100,
+    "step": 1,
+    "default": 50
+  },
+  { 
+    "type": "boolean", 
+    "name": "simpleBoolean", 
+    "label": "Simple boolean example" 
+	"default": true
+  },
+  { 
+    "type": "boolean", 
+    "name": "advancedBoolean", 
+    "label": "Advanced boolean example",
+    "description": "Showcasing advanced options for a boolean type",
+	"default": true,
+	"widget": "timecode"
+  }
+
+]
